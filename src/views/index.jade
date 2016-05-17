@@ -6,4 +6,9 @@ html
     body
         h1 Welcome to our bookstore
         each book in books
-           img.thumb(src="/images/" + book.thumb, style="height: 100px; width: 100px; float: left; padding: 10px;")
+           img.thumb(src="/images/" + book.thumb, style="height: 100px; width: 100px; float: left; padding: 10px;", title=book.title)
+        div#display(style="wdith:100%; float: left; padding: 0 20%;")
+           img#cover(style="max-width: 100%" )
+           h2#title
+           p#author
+           p#description
