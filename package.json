@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rogerdering/ajax-books/issues"
   },
-  "homepage": "https://github.com/rogerdering/ajax-books#readme"
+  "homepage": "https://github.com/rogerdering/ajax-books#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
