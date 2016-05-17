@@ -2,7 +2,8 @@ doctype html
 html
     head
         script(src="https://code.jquery.com/jquery-2.2.0.min.js")
+        script(src="js/custom.js")
     body
-        h1 Bookstore
-          each book in books
-           img(src="/images/" + book.thumb)
+        h1 Welcome to our bookstore
+        each book in books
+           img.thumb(src="/images/" + book.thumb, style="height: 100px; width: 100px; float: left; padding: 10px;")
